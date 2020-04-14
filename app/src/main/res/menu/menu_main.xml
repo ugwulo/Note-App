@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ugwulo.noteapp.NoteListActivity">
+    <group
+        android:id="@+id/grp1">
+        <item
+            android:id="@+id/home"
+            android:title="@string/menu_home"
+            android:icon="@drawable/ic_home_black_24dp" />
+        <item
+            android:id="@+id/tools"
+            android:icon="@drawable/ic_build_black_24dp"
+            android:title="@string/menu_tools"
+             />
+    </group>
+
+    <group
+        android:id="@+id/grp2">
+        <item
+            android:id="@+id/about"
+            android:title="@string/about"
+            android:icon="@drawable/ic_person_black_24dp"/>
+
+    </group>
+
+</menu>
